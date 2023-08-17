@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Burpee-Medium";
+  src: url("../fonts/Burpee-Medium.otf");
+}
+
+@font-face {
+  font-family: "Burpee-Black";
+  src: url("../fonts/Burpee-Black.otf");
+}
+
+@font-face {
+  font-family: "Burpee-Light";
+  src: url("../fonts/Burpee-Light.otf");
+}
+
+@font-face {
+  font-family: "Burpee-Regular";
+  src: url("../fonts/Burpee-Regular.otf");
+}
+
+@font-face {
+  font-family: "Burpee-Thin";
+  src: url("../fonts/Burpee-Thin.otf");
+}
+
+/* global css start */
+:root {
+  --bm: "Burpee-Medium";
+  --bb: "Burpee-Black";
+  --bl: "Burpee-Light";
+  --br: "Burpee-Regular";
+  --bt: "Burpee-Thin";
+  --white: #ffffff;
+  --black: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: var(--black);
+  font-family: var(--br);
+  background-color: var(--white);
+}
+
+/* global css end */
+
+/* font media query start */
+@media only screen and (max-width: 1370px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+.max-width {
+  max-width: 1400px;
+}
+
+/* font media query start end */
+
+
+/* CSS Start Here */
