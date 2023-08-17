@@ -34,9 +34,22 @@
   --black: #000000;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  color: var(--black);
+  font-family: var(--br);
+  background-color: var(--white);
+}
+
 
 ul li {
   list-style-type: none;
@@ -46,11 +59,6 @@ a {
   text-decoration: none;
 }
 
-body {
-  color: var(--black);
-  font-family: var(--br);
-  background-color: var(--white);
-}
 
 /* global css end */
 
